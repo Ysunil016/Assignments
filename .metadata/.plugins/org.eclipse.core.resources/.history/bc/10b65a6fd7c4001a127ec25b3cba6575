@@ -1,0 +1,19 @@
+package com.Spring.Services.Interface;
+
+import com.Spring.Bean.DriverRating;
+
+public interface RatingInterface {
+
+	// Passenger Rating Driver
+	boolean rateDriver(DriverRating book, String from);
+
+	// Passenger Rating Driver
+	boolean ratePassenger(DriverRating book, String from);
+
+	// Driver Getting Aggregated Rating
+	float getAggregatedDriverRating(String driverId);
+
+	// Passenger Getting Aggregated Rating
+	float getAggregatedPassengerRating(String passenderId);
+
+}

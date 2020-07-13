@@ -1,0 +1,64 @@
+package com.Spring.Bean;
+
+import javax.validation.constraints.NotNull;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "driverRating")
+public class DriverRating {
+
+	@Id
+	private ObjectId ratingId;
+	@NotNull
+	private String passengerId;
+	@NotNull
+	private String driverId;
+	@NotNull
+	private int rating;
+	@NotNull
+	private String rideId;
+
+	// Important to Be for Mockito Testing
+	public DriverRating() {
+	}
+
+	public DriverRating(String toDriver, String fromPassenger, int rating, String rideId) {
+		System.currentTimeMillis();
+		this.ratingId = new ObjectId();
+		this.rideId = rideId;
+		this.driverId = toDriver;
+		this.passengerId = fromPassenger;
+		this.rating = rating;
+	}
+
+	public ObjectId getRatingId() {
+		return ratingId;
+	}
+
+	public String getPassengerId() {
+		return passengerId;
+	}
+
+	public void setPassengerId(String passengerId) {
+		this.passengerId = passengerId;
+	}
+
+	public String getDriverId() {
+		return driverId;
+	}
+
+	public void setDriverId(String driverId) {
+		this.driverId = driverId;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+}

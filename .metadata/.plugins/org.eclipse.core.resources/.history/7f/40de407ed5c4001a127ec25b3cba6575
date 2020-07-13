@@ -1,0 +1,9 @@
+package com.Spring.Repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.Spring.Bean.Booking;
+
+public interface RatingRepository extends CrudRepository<Booking, String>{
+
+}

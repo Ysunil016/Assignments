@@ -1,0 +1,42 @@
+package com.Spring.Service.Implementation;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Spring.Bean.DriverRating;
+import com.Spring.Bean.PassengerRating;
+import com.Spring.Repository.RatingRepository;
+import com.Spring.Services.Interface.RatingInterface;
+
+@Service
+public class RatingService implements RatingInterface {
+
+	@Autowired
+	private RatingRepository ratingRepository;
+
+	@Override
+	public boolean rateDriver(DriverRating driverRating) {
+		ratingRepository.save(driverRating);
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean ratePassenger(PassengerRating passengerRating) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public float getAggregatedDriverRating(String driverId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float getAggregatedPassengerRating(String passenderId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

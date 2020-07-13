@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OyeRating&apos; to &apos;OyeRatingService&apos;" description="Rename resource &apos;OyeRating&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/OyeRating" name="OyeRatingService" stamp="1594622341546" updateReferences="true"/>
+</session>
