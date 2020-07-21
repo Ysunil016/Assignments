@@ -1,0 +1,22 @@
+{
+    "rana":{
+        "lat":"19",
+        "lng":"72",
+        "end":"Slow"
+    },
+    "rajput":{
+        "lat":"28",
+        "lng":"77",
+        "end":"Fast"      
+    },
+    "kolkata":{
+        "lat":"12",
+        "lng":"77",
+        "end":"Mild"
+    },
+    "kamorta":{
+        "lat":"25.05",
+        "lng":"76",
+        "end":"Red"   
+    }
+}

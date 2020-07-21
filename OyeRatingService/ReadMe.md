@@ -11,6 +11,9 @@
 	MongoDb as Database
 	Spring Boot Framework for MicroService
 	
+	
+# Setup Required - 
+	MongoServer Should be Running in Local System at 27017 PORT.
 
 PORT - 80
 
@@ -21,6 +24,10 @@ PORT - 80
 METHOD - POST
 ENDPOINT - /v1/rating/giveRatingToDriver
 RESPONSE - Boolean
+
+Example - 
+
+http://127.0.0.1:80/v1/rating/giveRatingToDriver
 
 BODY - 
 {
@@ -35,10 +42,13 @@ BODY -
 #API to Give Rating to Driver
 
 METHOD - POST
-ENDPOINT - /v1/rating/giveRatingToPassenger/
+ENDPOINT - /v1/rating/giveRatingToPassenger
 RESPONSE - Boolean
 
-BODY - 
+Example - 
+
+http://127.0.0.1:80/v1/rating/giveRatingToPassenger
+
 BODY - 
 {
 	"rideId":"215VTSYA",
@@ -55,6 +65,9 @@ METHOD - GET
 ENDPOINT - /v1/rating/getAggregatedRating/driver/{driverId}
 RESPONSE - Float
 
+Example
+http://127.0.0.1:80/v1/rating/getAggregatedRating/driver/Abdul008
+
 @PathVariable - driverId
 
 #API for AggregatedRating of a Passenger
@@ -62,5 +75,9 @@ RESPONSE - Float
 METHOD - GET
 ENDPOINT - /v1/rating/getAggregatedRating/passenger/{passengerId}
 RESPONSE - Float
+	
+Example
+http://127.0.0.1:80/v1/rating/getAggregatedRating/driver/YSunil016
+
 	
 @PathVariable - passengerId

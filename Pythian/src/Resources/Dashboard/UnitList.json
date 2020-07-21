@@ -1,0 +1,227 @@
+[{
+    "image":"Arihant",
+    "items":[
+        {"name":"Arihant","color":"#526152"},
+        {"name":"Arighat","color":"#526152"}
+     ]
+},
+{
+    "image":"Chakra",
+    "items":[
+        {"name":"Akula","color":"#526152"},
+        {"name":"AK_Bars","color":"#526152"},
+        {"name":"Delfin","color":"#755050"},
+        {"name":"Kashalot","color":"#949436"},
+        {"name":"Pantera","color":"#755050"},
+        {"name":"Volk","color":"#526152"},
+        {"name":"Bratsk","color":"#755050"},
+        {"name":"Leopard","color":"#949436"},
+        {"name":"Tigr","color":"#755050"},
+        {"name":"Magadan","color":"#755050"},
+        {"name":"Vepr","color":"#526152"},
+        {"name":"Kuzbass","color":"#755050"},
+        {"name":"Gepard","color":"#949436"},
+        {"name":"Kuguar","color":"#755050"},
+        {"name":"Rys","color":"#949436"},
+        {"name":"Samara","color":"#755050"},
+        {"name":"Chakra","color":"#755050"},
+        {"name":"Vepr","color":"#526152"},
+        {"name":"Iribis","color":"#755050"}
+    ]
+},
+{
+    "image":"Kalvari",
+    "items":[
+        {"name":"Kalvari","color":"#526152"},
+        {"name":"Khandri","color":"#526152"}
+     ]
+},
+{
+    "image":"Singhughosh",
+    "items":[
+        {"name":"Sindhughosh","color":"#526152"},
+        {"name":"Sindhudhvaj","color":"#526152"},
+        {"name":"Sindhuraj","color":"#755050"},
+        {"name":"Sindhuratna","color":"#949436"},
+        {"name":"Sindhukesari","color":"#755050"},
+        {"name":"Sindhukirti","color":"#755050"},
+        {"name":"Sindhuvijay","color":"#949436"},
+        {"name":"Sindhurashtra","color":"#755050"}
+    ]
+},
+{
+    "image":"Shishumar",
+    "items":[
+        {"name":"Shishumar","color":"#949436"},
+        {"name":"Shankush","color":"#526152"},
+        {"name":"Shalki","color":"#755050"},
+        {"name":"Shankul","color":"#755050"}
+    ]
+},
+{
+    "image":"Kiev",
+    "items":[
+        {"name":"Vikramaditya","color":"#949436"}
+    ]
+},
+{
+    "image":"Kolkata",
+    "items":[
+        {"name":"Kolkata","color":"#949436"},
+        {"name":"Kochi","color":"#526152"},
+        {"name":"Chennai","color":"#755050"}
+    ]
+},
+{
+    "image":"Delhi",
+    "items":[
+        {"name":"Delhi","color":"#949436"},
+        {"name":"Mysore","color":"#526152"},
+        {"name":"Mumbai","color":"#755050"}
+    ]
+},
+{
+    "image":"Rajput",
+    "items":[
+        {"name":"Rajput","color":"#949436"},
+        {"name":"Rana","color":"#526152"},
+        {"name":"Ranvir","color":"#755050"},
+        {"name":"Ranvijay","color":"#755050"}
+    ]
+},
+{
+    "image":"Shivalik",
+    "items":[
+        {"name":"Shivalik","color":"#949436"},
+        {"name":"Satpura","color":"#526152"},
+        {"name":"Sahyadri","color":"#755050"}
+    ]
+},
+{
+    "image":"Talwar",
+    "items":[
+        {"name":"Talwar","color":"#949436"},
+        {"name":"Trishul","color":"#526152"},
+        {"name":"Tabar","color":"#755050"},
+        {"name":"Teg","color":"#949436"},
+        {"name":"Tarkash","color":"#526152"},
+        {"name":"Trikand","color":"#755050"}
+    ]
+},
+{
+    "image":"Brahmaputra",
+    "items":[
+        {"name":"Brahmaputra","color":"#949436"},
+        {"name":"Betwa","color":"#526152"},
+        {"name":"Beas","color":"#755050"}
+    ]
+},
+{
+    "image":"Godavari",
+    "items":[
+        {"name":"Gomati","color":"#949436"}
+     ]
+},
+{
+    "image":"Kamorta",
+    "items":[
+        {"name":"Kamorta","color":"#949436"},
+        {"name":"Kadmatt","color":"#526152"},
+        {"name":"Kitlan","color":"#755050"},
+        {"name":"Kavaratti","color":"#526152"}        
+    ]
+},
+{
+    "image":"Kora",
+    "items":[
+        {"name":"Kora","color":"#949436"},
+        {"name":"Kirch","color":"#949436"},
+        {"name":"Kulish","color":"#526152"},
+        {"name":"Karmuk","color":"#755050"}
+     ]
+},
+{
+    "image":"Khukri",
+    "items":[
+        {"name":"Khukri","color":"#949436"},
+        {"name":"Kuthar","color":"#526152"},
+        {"name":"Kirpan","color":"#755050"},
+        {"name":"Khanjar","color":"#526152"}        
+    ]
+},
+{
+    "image":"Veer",
+    "items":[
+        {"name":"Nishank","color":"#949436"},
+        {"name":"Vibhuti","color":"#949436"},
+        {"name":"Vipul","color":"#526152"},
+        {"name":"Vinash","color":"#755050"},
+        {"name":"Vidyut","color":"#949436"},
+        {"name":"Nashak","color":"#949436"},
+        {"name":"Prabal","color":"#526152"},
+        {"name":"Pralya","color":"#526152"} 
+     ]
+},
+{
+    "image":"Abhay",
+    "items":[
+        {"name":"Abhay","color":"#949436"},
+        {"name":"Ajay","color":"#526152"},
+        {"name":"Akshay","color":"#755050"}
+    ]
+},
+{
+    "image":"Godavari",
+    "items":[
+        {"name":"Gomati","color":"#949436"}
+     ]
+},
+{
+    "image":"Kamorta",
+    "items":[
+        {"name":"Kamorta","color":"#949436"},
+        {"name":"Kadmatt","color":"#526152"},
+        {"name":"Kitlan","color":"#755050"},
+        {"name":"Kavaratti","color":"#526152"}        
+    ]
+},
+{
+    "image":"Kora",
+    "items":[
+        {"name":"Kora","color":"#949436"},
+        {"name":"Kirch","color":"#949436"},
+        {"name":"Kulish","color":"#526152"},
+        {"name":"Karmuk","color":"#755050"}
+     ]
+},
+{
+    "image":"Khukri",
+    "items":[
+        {"name":"Khukri","color":"#949436"},
+        {"name":"Kuthar","color":"#526152"},
+        {"name":"Kirpan","color":"#755050"},
+        {"name":"Khanjar","color":"#526152"}        
+    ]
+},
+{
+    "image":"Veer",
+    "items":[
+        {"name":"Nishank","color":"#949436"},
+        {"name":"Vibhuti","color":"#949436"},
+        {"name":"Vipul","color":"#526152"},
+        {"name":"Vinash","color":"#755050"},
+        {"name":"Vidyut","color":"#949436"},
+        {"name":"Nashak","color":"#949436"},
+        {"name":"Prabal","color":"#526152"},
+        {"name":"Pralya","color":"#526152"} 
+     ]
+},
+{
+    "image":"Abhay",
+    "items":[
+        {"name":"Abhay","color":"#949436"},
+        {"name":"Ajay","color":"#526152"},
+        {"name":"Akshay","color":"#755050"}
+    ]
+}
+]

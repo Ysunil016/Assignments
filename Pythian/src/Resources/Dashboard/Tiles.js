@@ -1,0 +1,21 @@
+export const Cards =[{
+    title:"UNITS",
+    subTitle:"",
+    count:"73",
+    fetch_all_api:""
+},{
+    title:"OPS",
+    subTitle:"",
+    count:"33",
+    fetch_all_api:""
+},{
+    title:"OPS-DEF",
+    subTitle:"",
+    count:"30",
+    fetch_all_api:""
+},{
+    title:"REFIT",
+    subTitle:"",
+    count:"10",
+    fetch_all_api:""
+}]
