@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/sunil016/Documents/GitHub/Java/Assignments/Yamcs"/>
 			<item value="/Users/sunil016/Documents/GitHub/Java/Assignments/Postman"/>
 		</list>
 		<list key="projectNameTemplate">
