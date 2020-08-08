@@ -2,9 +2,9 @@ version: "3.7"
 services:
 
   postman:
-    image: sunil016/assignment_postman:1.0
+    image: sunil016/stock_exchange_order:1.0
     ports:
-      - "80"
+      - "8000"
     networks:
       - frontend
     deploy:

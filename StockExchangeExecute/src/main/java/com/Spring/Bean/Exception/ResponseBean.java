@@ -8,6 +8,7 @@ import java.util.Date;
  *
  */
 
+// Response Bean
 public class ResponseBean {
 
 	private Date timestamp;

@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+// Stock Exceutor Bean
 @Document("stockExecutedOrders")
 public class StockExecutedOrder {
 

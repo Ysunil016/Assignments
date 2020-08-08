@@ -9,6 +9,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+
+//Stock Received order Bean
 @Document(collection = "stockReceivedOrders")
 public class StockReceivedOrder {
 

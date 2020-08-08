@@ -8,6 +8,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+// Bean Class for Exceuted Order, that Holds Structure for Exceuted Orders.
+
 @Document("stockExecutedOrders")
 public class StockExecutedOrder {
 

@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
  *
  */
 
+// General Response Bean
 public class GenericExceptionResponse {
 	private Date timestamp;
 	private String message;

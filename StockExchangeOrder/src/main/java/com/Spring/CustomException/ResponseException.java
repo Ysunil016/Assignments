@@ -12,6 +12,8 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import com.Spring.Bean.Exception.ResponseBean;
 
+// Handling Response Entity
+
 @RestController
 @ControllerAdvice
 public class ResponseException extends ResponseEntityExceptionHandler {

@@ -11,6 +11,8 @@ import com.Spring.CustomException.OrderNotFound;
 import com.Spring.Repository.OrderExecutedRepository;
 import com.Spring.Services.Interface.StockExecInterface;
 
+// Business Logic for Service
+
 @Service
 public class StockExecService implements StockExecInterface {
 	@Autowired

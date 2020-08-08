@@ -17,6 +17,8 @@ import com.Spring.Bean.StockReceivedOrder;
 import com.Spring.CustomException.OrderException;
 import com.Spring.Services.Interface.StockExecInterface;
 
+// Resource Class for Handling Executions
+
 @RestController
 @RequestMapping("/v1/stockExchange")
 public class Executation {
@@ -24,6 +26,7 @@ public class Executation {
 	@Autowired
 	private StockExecInterface eService;
 
+	// Post Request Handler - Exceuting Order, Request is Coming from Order Service
 	@PostMapping(value = "/executeOrder", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<StockExecutedOrder> exeOrder(@Valid @RequestBody StockReceivedOrder rOrder) {
 		if (rOrder == null)
@@ -33,6 +36,7 @@ public class Executation {
 		return ResponseEntity.ok(eService.executeOrder(order));
 	}
 
+	// Get Request Handler - Fetching Order, this Returns Executed Order 
 	@GetMapping(value = "/fetchOrder/{orderId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<StockExecutedOrder> getOrder(@PathVariable("orderId") Integer orderId) {
 		if (orderId == null)

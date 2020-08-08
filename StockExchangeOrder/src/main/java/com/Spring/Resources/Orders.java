@@ -26,6 +26,7 @@ public class Orders {
 	@Autowired
 	private StockOrderInterface orderService;
 
+	// Placing Order
 	@PostMapping(value = "/placeOrder", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<ResponseBean> placeOrder(@Valid @RequestBody StockReceivedOrder order) {
 		if (order == null)
@@ -34,7 +35,7 @@ public class Orders {
 		ResponseBean response = new ResponseBean(orderService.createOrder(order), "Placeing Order");
 		return ResponseEntity.ok(response);
 	}
-
+	// Fetching Order By Id
 	@GetMapping(value = "/fetchOrder/{orderId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<ResponseBean> getOrder(@PathVariable("orderId") Integer orderId) {
 		if (orderId == null)
@@ -42,7 +43,7 @@ public class Orders {
 		ResponseBean response = new ResponseBean(orderService.fetchOrder(orderId), "Placeing Order");
 		return ResponseEntity.ok(response);
 	}
-
+	// Updating Order By Id
 	@PutMapping(value = "/updateOrder/{orderId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<ResponseBean> updateOrder(@PathVariable("orderId") Integer id,
 			@RequestBody StockReceivedOrder order) {
@@ -51,7 +52,7 @@ public class Orders {
 		ResponseBean response = new ResponseBean(orderService.updateOrder(id, order), "Placeing Order");
 		return ResponseEntity.ok(response);
 	}
-
+	// Deleting Order By Id
 	@DeleteMapping(value = "/deleteOrder/{orderId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<ResponseBean> deleteOrder(@PathVariable("orderId") Integer orderId) {
 		if (orderId == null)
