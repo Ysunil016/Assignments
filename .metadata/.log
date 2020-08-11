@@ -3634,3 +3634,18 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-08 21:18:35.503
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hmolsFJi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-08 21:18:35.511
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hmolsFJi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-08 21:18:35.515
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-08 21:18:35.516
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hmolsFJi => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-08-08 21:18:37.688
+!MESSAGE The workspace will exit with unsaved changes in this session.
